@@ -9,17 +9,21 @@
 /* Begin PBXBuildFile section */
 		ACCD768E286CCDC900376095 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCD768D286CCDC900376095 /* AppDelegate.swift */; };
 		ACCD7690286CCDC900376095 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCD768F286CCDC900376095 /* SceneDelegate.swift */; };
-		ACCD7692286CCDC900376095 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCD7691286CCDC900376095 /* ViewController.swift */; };
+		ACCD7692286CCDC900376095 /* DirectDispathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCD7691286CCDC900376095 /* DirectDispathViewController.swift */; };
 		ACCD7697286CCDCB00376095 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCD7696286CCDCB00376095 /* Assets.xcassets */; };
+		ACCD76A5286CDEB500376095 /* TableDispatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCD76A4286CDEB500376095 /* TableDispatchViewController.swift */; };
+		ACCD76A7286CE79A00376095 /* MessageDispatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCD76A6286CE79A00376095 /* MessageDispatchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ACCD768A286CCDC900376095 /* MethodDispatchExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MethodDispatchExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCD768D286CCDC900376095 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACCD768F286CCDC900376095 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACCD7691286CCDC900376095 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACCD7691286CCDC900376095 /* DirectDispathViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectDispathViewController.swift; sourceTree = "<group>"; };
 		ACCD7696286CCDCB00376095 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACCD769B286CCDCB00376095 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCD76A4286CDEB500376095 /* TableDispatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDispatchViewController.swift; sourceTree = "<group>"; };
+		ACCD76A6286CE79A00376095 /* MessageDispatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDispatchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +76,9 @@
 		ACCD76A2286CCE3F00376095 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				ACCD7691286CCDC900376095 /* ViewController.swift */,
+				ACCD7691286CCDC900376095 /* DirectDispathViewController.swift */,
+				ACCD76A4286CDEB500376095 /* TableDispatchViewController.swift */,
+				ACCD76A6286CE79A00376095 /* MessageDispatchViewController.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -154,7 +160,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACCD7692286CCDC900376095 /* ViewController.swift in Sources */,
+				ACCD76A7286CE79A00376095 /* MessageDispatchViewController.swift in Sources */,
+				ACCD7692286CCDC900376095 /* DirectDispathViewController.swift in Sources */,
+				ACCD76A5286CDEB500376095 /* TableDispatchViewController.swift in Sources */,
 				ACCD768E286CCDC900376095 /* AppDelegate.swift in Sources */,
 				ACCD7690286CCDC900376095 /* SceneDelegate.swift in Sources */,
 			);
